@@ -102,8 +102,6 @@
 - Writes are applied to cache block first
     * Synchronous/write-through cache writes to disk immediately
     * Asynchronous/write-back cache stores dirty block in memory and writes back after a delay 
-
-**Disk buffer cache**
 - Unified page cache in OS
     * Free pages allocated to both processes and disk buffer cache from common pool
 - Two benefits
